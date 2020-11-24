@@ -10,7 +10,7 @@ import numpy as np
 
 #API key and setting for the community api
 #https://developer.nytimes.com/docs/community-api-product/1/routes/user-content/url.json/get
-api_key = "03Q77oAuM8UocuAmO9MwGeuV65h1KQeD"
+api_key = "***************"
 article_url = "https://www.nytimes.com/2020/10/26/opinion/qanon-conspiracy-donald-trump.html?searchResultPosition=4"
 sort = "newest"
 
@@ -45,7 +45,7 @@ print (comments_body)
 
 # %% calling Perspective API
 
-perspective_apikey = "AIzaSyDWc4ktKubB1pDD2QnNDERmu17T-iKSGK4"
+perspective_apikey = "***************"
 
 # url for perspective api
 url = ('https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze' +

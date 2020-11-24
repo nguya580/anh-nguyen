@@ -9,7 +9,7 @@ import numpy as np
 
 from googleapiclient.discovery import build
 
-api_key = "AIzaSyDWc4ktKubB1pDD2QnNDERmu17T-iKSGK4"
+api_key = "***************"
 
 # create a service with specific request for youtube api from google
 youtube = build('youtube', 'v3', developerKey = api_key)
