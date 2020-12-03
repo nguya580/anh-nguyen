@@ -10,7 +10,7 @@ from requests_oauthlib import OAuth1
 
 # %%
 
-auth = OAuth1("f83871dd4c3944658cc7b1155b563cb2", "e228bce0a43942928e9edad0ac83bf96")
+auth = OAuth1("**********", "**********")
 endpoint = "http://api.thenounproject.com/icons/food?&limit=50"
 
 response = requests.get(endpoint, auth=auth)
