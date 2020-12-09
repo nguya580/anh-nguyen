@@ -16,3 +16,44 @@ Please feel free to test out the code on your own. You will need to generate **y
 - Json
 - [Perspective API](https://www.perspectiveapi.com/#/start)
 - [Youtube API](https://developers.google.com/youtube/v3)
+- [The New York Times API](https://developer.nytimes.com/) (community beta)
+
+## Pseudocode
+
+Import libraries.
+
+Insert API keys.
+
+Set parameters for an API request.
+
+Request for an API response.
+
+Print the response to see the structure of the data.
+
+Access to the wanted piece of data.
+	Loop:
+		Get all the comments in the data.
+		Append to a list of comments.
+
+Print the list of comments.
+
+Use Perspective API to score all comments.
+
+Loop:
+	For every score in the comments:
+		Get summary score value for each comment.
+		Append summary score value into a list.
+
+Match comments and summary scores in a dict.
+
+Create a data frame using Pandas based on the above dict of {comment: score}.
+
+Create a condition and value lists to rank comments based on the summary score within the data frame.
+
+Create a new column of priority base on the condition and value lists.
+
+Sort the data frame from high to low order.
+
+.value_count() data frame to see totals of each comment rank.
+
+Export as CSV file for record and presentation in Major Studio 1 class.
