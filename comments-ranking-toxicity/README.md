@@ -31,18 +31,18 @@ Request for an API response.
 Print the response to see the structure of the data.
 
 Access to the wanted piece of data.
-	Loop:
-		Get all the comments in the data.
-		Append to a list of comments.
+	- Loop:
+		- Get all the comments in the data.
+		- Append to a list of comments.
 
 Print the list of comments.
 
 Use Perspective API to score all comments.
 
 Loop:
-	For every score in the comments:
-		Get summary score value for each comment.
-		Append summary score value into a list.
+	- For every score in the comments:
+		- Get summary score value for each comment.
+		- Append summary score value into a list.
 
 Match comments and summary scores in a dict.
 
